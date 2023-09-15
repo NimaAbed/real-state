@@ -1,0 +1,84 @@
+.container {
+    border-bottom: 2px solid #304ffe;
+    padding-bottom: 10px;
+    margin-bottom: 80px;
+}
+
+.container h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #304ffe;
+    margin-bottom: 20px;
+}
+
+.container p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.properties {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.properties span {
+    background-color: #304ffe58;
+    color: #304ffe;
+    padding: 5px 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.container button {
+    background-color: #00a800;
+    border: none;
+    padding: 5px 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-in 0.1s;
+    margin: 0 3px;
+    margin-top: 20px;
+}
+
+.container button:hover {
+    color: #000;
+}
+
+.container .details {
+    background-color: royalblue;
+    border: none;
+    padding: 5px 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-in 0.1s;
+    margin: 0 3px;
+    margin-top: 20px;
+}
+
+.container .details:hover {
+    color: #000;
+}
+
+.container .delete {
+    background-color: #ba181b;
+    border: none;
+    padding: 5px 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-in 0.1s;
+    margin: 0 3px;
+    margin-top: 20px;
+}
+
+.container .delete:hover {
+    color: #000;
+}
